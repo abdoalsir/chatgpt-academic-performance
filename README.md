@@ -1,6 +1,6 @@
 # ChatGPT Use and Academic Performance Among Medical Students
 
-### Omdurman Islamic University, Sudan – 2025
+## Omdurman Islamic University, Sudan – 2025
 
 **Study type:** Cross-sectional descriptive study
 **Degree level:** MBBS
@@ -12,15 +12,26 @@
 
 ## Background
 
-The rapid adoption of AI tools like ChatGPT has reached medical education globally, yet its actual impact on student learning and academic performance remains poorly studied — particularly in low-resource settings. In Sudan, where traditional educational infrastructures were further disrupted by conflict beginning in 2023, medical students increasingly rely on digital tools to fill instructional gaps.
+The rapid adoption of AI tools like ChatGPT has reached medical education
+globally, yet its actual impact on student learning and academic performance
+remains poorly studied — particularly in low-resource settings. In Sudan, where
+traditional educational infrastructures were further disrupted by conflict
+beginning in 2023, medical students increasingly rely on digital tools to fill
+instructional gaps.
 
-This study was conducted at Omdurman Islamic University's Faculty of Medicine to evaluate how ChatGPT use relates to learning behaviors and perceived academic benefit, and to identify the factors that drive or limit its adoption among Sudanese medical students.
+This study was conducted at Omdurman Islamic University's Faculty of Medicine to
+evaluate how ChatGPT use relates to learning behaviors and perceived academic
+benefit, and to identify the factors that drive or limit its adoption among
+Sudanese medical students.
 
 ## Objectives
 
-- Assess levels of ChatGPT awareness, usage frequency, and purpose among medical students
-- Identify sociodemographic, economic, and institutional factors influencing adoption
-- Examine the relationship between ChatGPT use and students' perceived academic benefit
+- Assess levels of ChatGPT awareness, usage frequency, and purpose among medical
+students
+- Identify sociodemographic, economic, and institutional factors influencing
+adoption
+- Examine the relationship between ChatGPT use and students' perceived academic
+benefit
 - Determine predictors of being a frequent ChatGPT user
 
 ## Study Design & Methods
@@ -60,10 +71,12 @@ perceptions score); binary logistic regression (predictors of frequent use)
 
 | File | Description |
 |------|-------------|
-| `data/raw/ChatGPT_raw_data.xlsx` | Raw survey responses (bilingual Arabic/English) |
-| `data/cleaned/cleaned_coded_data.xlsx` | Cleaned data with recoded numeric variables and binary dummy columns |
+| `1_data/raw/ChatGPT_raw_data.xlsx` | Raw survey responses (bilingual Arabic/English) |
+| `1_data/cleaned/cleaned_coded_data.xlsx` | Cleaned data with recoded numeric variables and binary dummy columns |
 
-The questionnaire captured demographics, institutional factors, ChatGPT usage patterns, a 10-item Likert perceptions scale, and open-ended challenges and suggestions.
+The questionnaire captured demographics, institutional factors, ChatGPT usage
+patterns, a 10-item Likert perceptions scale, and open-ended challenges and
+suggestions.
 
 > **Note:** No individual identifiers are present in either dataset. The raw
 file contains Arabic-language column headers; the cleaning script standardizes
@@ -71,7 +84,7 @@ these to English.
 
 ## Repository Structure
 
-```
+```text
 chatgpt-academic-performance/
 │
 ├── README.md
@@ -111,15 +124,19 @@ chatgpt-academic-performance/
 
 ### Reliability
 
-The 10-item perceptions scale demonstrated excellent internal consistency (Cronbach's α = 0.919), well above the 0.70 threshold, supporting its use as a composite outcome measure.
+The 10-item perceptions scale demonstrated excellent internal consistency
+(Cronbach's α = 0.919), well above the 0.70 threshold, supporting its use as a
+composite outcome measure.
 
 ### Who uses ChatGPT and how
 
 - 80% of students were frequent users (daily: 45.8%; several times/week: 34.2%)
 - 93.2% reported being "well acquainted" with ChatGPT before the study
 - 82% preferred using it independently rather than in study groups
-- Primary purposes: explaining difficult concepts (85.1%), language support (65.4%), and answering clinical questions (57.3%)
-- Most common challenges: accuracy doubts (73.9%) and over-reliance concerns (63.4%)
+- Primary purposes: explaining difficult concepts (85.1%), language support
+(65.4%), and answering clinical questions (57.3%)
+- Most common challenges: accuracy doubts (73.9%) and over-reliance concerns
+(63.4%)
 
 ### Institutional context
 
@@ -137,6 +154,7 @@ information"* (mean 3.10), suggesting appropriate critical thinking about
 reliability.
 
 ### Bivariate findings
+
 - Students with regular internet use for studying had significantly higher
 perceptions scores than those without (mean 3.52 vs. 2.95, p < 0.001)
 - Students who received institutional AI training actually reported *lower*
@@ -146,11 +164,13 @@ may emphasize limitations and ethical concerns
 with significant differences across academic years (χ² = 24.315, p = 0.004)
 
 ### Correlation
+
 ChatGPT usage frequency correlated positively with overall perceptions score
 (r = 0.283, p < 0.001): students who use it more frequently perceive greater
 academic benefit.
 
 ### Multiple linear regression — predictors of perceptions score
+
 **Model fit:** R² = 0.106 (p < 0.001)
 
 | Predictor | β | Direction | p-value |
@@ -161,6 +181,7 @@ academic benefit.
 | Year in Medical School | −0.014 | — | 0.853 |
 
 ### Binary logistic regression — predictors of frequent use
+
 **Model fit:** χ²(9) = 35.915, p < 0.001; Nagelkerke R² = 0.181; correctly
 classified 82.0%
 
@@ -206,4 +227,4 @@ academic outcomes cannot be established.
 
 ---
 
-*Data analyst: Abdulrahman Sirelkhatim | Analysis conducted September 2025*
+**Data analyst:** Abdulrahman Sirelkhatim | Analysis conducted September 2025
