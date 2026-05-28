@@ -200,13 +200,13 @@ classified 82.0%
 ## Selected Figures
 
 **Perceptions Scale – Likert Distribution**
-![Perceptions Likert Chart](figures/fig08_perceptions_likert_diverging.png)
+![Perceptions Likert Chart](5_figures/fig08_perceptions_likert_diverging.png)
 
 **Correlation Heatmap – 10-Item Perceptions Scale**
-![Correlation Heatmap](figures/fig10_correlation_heatmap.png)
+![Correlation Heatmap](5_figures/fig10_correlation_heatmap.png)
 
 **Predictors of Frequent ChatGPT Use – Forest Plot**
-![Forest Plot](figures/fig15_logistic_regression_forest_plot.png)
+![Forest Plot](5_figures/fig15_logistic_regression_forest_plot.png)
 
 ## Limitations
 
