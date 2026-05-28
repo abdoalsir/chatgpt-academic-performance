@@ -3,9 +3,13 @@
 ## Omdurman Islamic University, Sudan – 2025
 
 **Study type:** Cross-sectional descriptive study
+
 **Degree level:** MBBS
+
 **Institution:** Faculty of Medicine, Omdurman Islamic University
+
 **Sample size:** N = 295 medical students (2nd–5th year)
+
 **Data analyst:** Abdulrahman Sirelkhatim
 
 ---
