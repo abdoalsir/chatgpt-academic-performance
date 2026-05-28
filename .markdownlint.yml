@@ -1,0 +1,10 @@
+ignore:
+  - venv
+  - .github
+  - node_modules
+
+rules:
+  MD013:
+    line_length: 120
+    tables: false
+    code_blocks: false
