@@ -12,3 +12,4 @@ rules:
     tables: false
     headings: false
     strict: false
+  MD060: false
