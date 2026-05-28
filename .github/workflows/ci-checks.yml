@@ -10,13 +10,13 @@ jobs:
       - uses: ls-lint/action@v2.2.3
 
   md_formatting:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: nosborn/github-action-markdown-cli@v3.3.0
-        with:
-          files: .
-          config_file: .markdownlint.yml
+  runs-on: ubuntu-latest
+  steps:
+    - uses: actions/checkout@v4
+    - name: Install markdownlint-cli
+      run: npm install -g markdownlint-cli
+    - name: Run markdownlint
+      run: markdownlint "**/*.md" --config .markdownlint.yml --ignore node_modules
 
   py_formatting:
     runs-on: ubuntu-latest
