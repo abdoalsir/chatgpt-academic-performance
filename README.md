@@ -91,32 +91,33 @@ chatgpt-academic-performance/
 ├── .gitignore
 ├── .ls-lint.yml
 ├── .markdownlint.yml
+├── .markdownlintignore
 │
 ├── .github/
 │   └── workflows/
 │       └── ci-checks.yml
 │
-├── data/
+├── 1_data/
 │   ├── raw/            ← excluded from version control (privacy)
 │   └── cleaned/
 │       └── cleaned_coded_data.xlsx
 │
-├── cleaning/
+├── 2_cleaning/
 │   └── cleaning.py
 │
-├── analysis/
-│   ├── Full_Analysis.sps
-│   └── figures.py
-│
-├── notebooks/
+├── 3_notebooks/
 │   └── exploratory_analysis.ipynb
 │
-├── figures/
+├── 4_analysis/
+│   ├── full_analysis.sps
+│   └── figures.py
+│
+├── 5_figures/
 │   ├── fig01_gender_distribution.png
 │   ├── fig02_age_distribution.png
 │   └── ... (16 figures total)
 │
-└── docs/
+└── 6_docs/
     └── results_chapter.docx
 ```
 
