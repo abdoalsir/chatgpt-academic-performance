@@ -4,8 +4,8 @@ Among Medical Students at Omdurman Islamic University, Sudan – 2025
 Script   : Figure Generation
 Author   : Abdulrahman Sirelkhatim
 Date     : September 2025
-Input    : data/cleaned/cleaned_coded_data.xlsx
-Output   : figures/ directory (PNG, 300 DPI)
+Input    : 1_data/cleaned/cleaned_coded_data.xlsx
+Output   : 5_figures/ directory (PNG, 300 DPI)
 
 Figures produced:
 fig01_gender_distribution.png

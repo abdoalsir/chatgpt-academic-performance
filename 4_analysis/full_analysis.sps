@@ -1,7 +1,9 @@
 ﻿* Encoding: UTF-8.
+* Update files paths before running.
+
 GET DATA
   /TYPE=XLSX
-  /FILE='C:\Users\Abdulrhman Alsir\Desktop\Data Analysis\ChatGPT_Research\cleaned_survey_data.xlsx'
+  /FILE='C:\Users\Abdulrhman Alsir\Desktop\portfolio\chatgpt-academic-performance\1_data\cleaned\cleaned_data.xlsx'
   /SHEET=name 'Sheet1'
   /READNAMES = ON.
 CACHE.
@@ -247,5 +249,5 @@ LOGISTIC REGRESSION VAR=Frequent_User_num
   /METHOD=ENTER Gender_num Age_num Year_num Income_num Internet_Fin_Challenges_num Uni_Guidance_num Institution_Training_num Prior_Knowledge_num Lecturers_Encouragement_num.
 EXECUTE.
 
-SAVE OUTFILE='C:\Users\Abdulrhman Alsir\Desktop\Data Analysis\ChatGPT_Research\cleaned_and_coded_data.sav' /COMPRESSED.
+SAVE OUTFILE='C:\Users\Abdulrhman Alsir\Desktop\portfolio\chatgpt-academic-performance\1_data\cleaned\cleaned_and_coded_data.sav' /COMPRESSED.
 EXECUTE.
