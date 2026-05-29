@@ -225,10 +225,10 @@ academic outcomes cannot be established.
 
 | Script | Purpose |
 |--------|---------|
-| `cleaning/cleaning.py` | Data cleaning and recoding |
-| `analysis/figures.py` | Figure generation |
-| `analysis/Full_Analysis.sps` | Full SPSS syntax |
-| `notebooks/exploratory_analysis.ipynb` | EDA |
+| `2_cleaning/cleaning.py` | Data cleaning and recoding |
+| `3_notebooks/exploratory_analysis.ipynb` | EDA |
+| `4_analysis/figures.py` | Figure generation |
+| `4_analysis/Full_Analysis.sps` | Full SPSS syntax |
 
 ---
 
